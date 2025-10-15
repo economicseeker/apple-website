@@ -1,6 +1,13 @@
+import Hero from "./components/Hero";
+import Highlights from "./components/Highlights";
+import { Navbar } from "./components/Navbar";
 function App() {
   return (
-    <h1 className="flex-center text-white text-3xl font-bold ">Hello World</h1>
+    <main className="bg-black">
+      <Navbar />
+      <Hero />
+      <Highlights />
+    </main>
   );
 }
 export default App;
