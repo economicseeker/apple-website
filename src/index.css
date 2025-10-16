@@ -3,17 +3,12 @@
 @theme {
   --color-blue: #2997ff;
 
+  --color-white: #fff;
+  --color-gray: #94928d;
   --color-gray-100: #94928d;
   --color-gray-200: #afafaf;
   --color-gray-300: #42424570;
   --color-zinc: #101010;
-}
-
-/* Your global resets / base styles (unchanged) */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 body {
